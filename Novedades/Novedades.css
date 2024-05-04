@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: rgb(161, 73, 0);
+}
+
+/* HEADER */
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+.logo {
+    position: relative;
+    margin-left: 20px;
+}
+
+.logo h1 {
+    color: rgb(255, 255, 255);
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    height: 50px;
+    width: 600px;
+
+}
+
+.menu ul li a {
+   color: rgb(255, 255, 255);
+    text-decoration: none;
+   text-decoration-line: none;
+
+}
+
+/* MAIN */
+
+.t-principal {
+position: relative;
+align-items: center;
+margin: 40px auto 0px auto;
+height: 40px;
+width: 1000px;
+padding: 20px 100px;
+color: white;
+background-color: black;
+
+}
+
+.t-mensajes {
+position: relative;
+align-items: center;
+margin: 20px auto 0px auto;
+height: 40px;
+width: 1000px;
+padding: 20px 100px;
+color: white;
+background-color: black;
+}
+    
+
+table {
+    position: relative;
+    width: 1200px;
+    margin: 20px auto 0px auto;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 123, 46);
+    border: solid 2px black;
+    border-collapse: collapse;
+}
+
+
+th{
+    padding: 10px 50PX 10PX 50px;
+    border-color: Solid 2px aquamarine;
+    text-align: center;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px 50PX 10PX 50px;
+    text-align: center;
+    border: 2px solid black; 
+    border-collapse: collapse;
+}
+
+td.left {
+    padding: 10px 50PX 10PX 50px;
+    text-align: center;
+    border: 2px solid black; 
+    border-collapse: collapse;
+    text-align: left;
+}
+
+
+td a{
+    text-decoration: none;
+    text-decoration-line: none;
+    color: black;
+}
+
+table  th.nombre-novedad{
+    height: 80px;
+}
+
+
+table td.grande {
+    height: 250px;
+    background-color: rgb(255, 209, 165);
+}
+
+table td.grande-w {
+    height: 200px;
+    background-color: rgb(255, 209, 165);
+    text-align: left;
+}
+
+table td.grande-w-1 {
+    width: 300px;
+    background-image: url(/Novedades/WhatsApp\ Image\ 2024-04-27\ at\ 21.49-Photoroom\ \(1\).png);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+table td.grande-w-2 {
+    height: 300px;
+    background-color: rgb(255, 209, 165);
+    text-align: left;
+}
+
+table td.grande-w-2 h3 {
+    font-size: 22px;
+    margin: 0;
+
+
+}
+
+table td.grande-w-2 p {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+
+
+table td.grande h3 {
+    text-align: left;
+   }
+   
+
+table td.grande p {
+ text-align: left;
+}
+
+table.novedad {
+    position: relative;
+    margin-top: 30px;
+}
+
+
+
+
+
